@@ -4,6 +4,7 @@
 
 [教學文件]()
 
+ * [安裝](docs/installation.md)
  * [簡報](docs/slides.md)
 
 
