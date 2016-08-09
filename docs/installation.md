@@ -20,8 +20,6 @@
 
     $ brew install ansible
 
-----
-
 <div style="text-align: center;">
 Coypleft © from 2016 Ansible Taiwan User Group CC BY-NC-SA 3.0 TW.
 </div>
