@@ -1,6 +1,8 @@
-## 安裝 Ansible
+# 安裝 Ansible
 
-### Ubuntu GNU/Linux
+## GNU/Linux
+
+### Ubuntu 
 
 1. 安裝 `add-apt-repository` 必要套件。
 
@@ -14,11 +16,37 @@
     
         $ sudo apt-get install ansible
 
-### macOS
+### CentOS
 
-請事先安裝好 [homebrew](http://brew.sh/index_zh-tw.html)。
+1. 安裝編譯相關套件。
 
-    $ brew install ansible
+        $ sudo yum install rpm-build make asciidoc git python-setuptools python2-devel python-jinja2
+
+2. 從 GitHub 取得 Ansible 的原始碼 (source code)。
+
+        $ git clone git://github.com/ansible/ansible.git --recursive
+
+3. 編譯並打包成 rpm。
+
+        $ cd ansible/ && make rpm
+
+4. 安裝 Ansible。
+
+        $ sudo rpm -ivh rpm-build/ansible-*.git*.noarch.rpm
+
+## macOS
+
+1. 請先安裝 [homebrew](http://brew.sh/index_zh-tw.html)，已安裝者請略過。
+
+        $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+2. 安裝 Ansible。
+
+        $ brew install ansible
+
+## Reference
+
+- [Installation — Ansible Documentation](http://docs.ansible.com/ansible/intro_installation.html)
 
 <div style="text-align: center;">
 Coypleft © from 2016 Ansible Taiwan User Group CC BY-NC-SA 3.0 TW.
