@@ -16,6 +16,13 @@
     
         $ sudo apt-get install ansible
 
+### openSUSE 
+    
+1. 安裝 Ansible。    
+    
+        $ sudo zypper install ansible
+
+
 ### CentOS
 
 1. 安裝編譯相關套件。
