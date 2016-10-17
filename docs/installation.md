@@ -14,7 +14,7 @@
     
 2. 使用 Ansible 官方的 PPA 套件來源。
 
-        $ sudo add-apt-repository ppa:ansible/ansible; sudo apt-get update
+        $ sudo add-apt-repository ppa:ansible/ansible -y; sudo apt-get update
     
 3. 安裝 Ansible。    
     
