@@ -2,6 +2,12 @@
 
 在使用 Ansible 管理機器 (managed node) 之前，我們需要在主控台 (Control Machine) 和 managed node 裡安裝 Python 和 OpenSSH。
 
+## Zypper (openSUSE)
+    
+1. 安裝 Ansible。    
+    
+        $ sudo zypper install ansible
+
 ## Yum (CentOS)
 
 若不想費心自己編 rpm，可改用 **Pip** 的方式進行安裝。
