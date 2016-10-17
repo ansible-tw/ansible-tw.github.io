@@ -16,7 +16,7 @@
     
         $ sudo apt-get install ansible
 
-### openSUSE 
+## openSUSE 
     
 1. 安裝 Ansible。    
     
