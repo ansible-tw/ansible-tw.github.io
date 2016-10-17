@@ -2,31 +2,9 @@
 
 在使用 Ansible 管理機器 (managed node) 之前，我們需要在主控台 (Control Machine) 和 managed node 裡安裝 Python 和 OpenSSH。
 
-## Zypper (openSUSE)
-    
-1. 安裝 Ansible。    
-    
-        $ sudo zypper install ansible
+以下依套件管理工具名稱進行排列。
 
-## Yum (CentOS)
-
-若不想費心自己編 rpm，可改用 **Pip** 的方式進行安裝。
-
-1. 安裝編譯相關套件。
-
-        $ sudo yum install rpm-build make asciidoc git python-setuptools python2-devel python-jinja2
-
-2. 從 GitHub 取得 Ansible 的原始碼 (source code)。
-
-        $ git clone git://github.com/ansible/ansible.git --recursive
-
-3. 編譯並打包成 rpm。
-
-        $ cd ansible/ && make rpm
-
-4. 安裝 Ansible。
-
-        $ sudo rpm -ivh rpm-build/ansible-*.git*.noarch.rpm
+---
 
 ## Apt (Ubuntu) 
 
@@ -61,6 +39,32 @@
 2. 安裝 Ansible。
         
         $ sudo pip install ansible
+
+## Yum (CentOS)
+
+若不想費心自己編 rpm，可改用 **Pip** 的方式進行安裝。
+
+1. 安裝編譯相關套件。
+
+        $ sudo yum install rpm-build make asciidoc git python-setuptools python2-devel python-jinja2
+
+2. 從 GitHub 取得 Ansible 的原始碼 (source code)。
+
+        $ git clone git://github.com/ansible/ansible.git --recursive
+
+3. 編譯並打包成 rpm。
+
+        $ cd ansible/ && make rpm
+
+4. 安裝 Ansible。
+
+        $ sudo rpm -ivh rpm-build/ansible-*.git*.noarch.rpm
+
+## Zypper (openSUSE)
+    
+1. 安裝 Ansible。    
+    
+        $ sudo zypper install ansible
 
 ---
 
