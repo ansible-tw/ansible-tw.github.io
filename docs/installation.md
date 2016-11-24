@@ -35,18 +35,25 @@
 1. 請先安裝 [pip](https://pypi.python.org/pypi/pip)，已安裝者請略過。
 
         $ sudo easy_install pip
+        
+        # Debian, Ubuntu
+        $ sudo apt-get install -y python-pip
+
+2. 升級 pip。
+
+        $ sudo pip install -U pip
 
 2. 安裝 Ansible。
         
         $ sudo pip install ansible
 
-## Yum (CentOS)
+## RPM Build (CentOS)
 
-若不想費心自己編 rpm，可改用 **Pip** 的方式進行安裝。
+若不想費心自己編 rpm，可改用 **Yum** 或 **Pip** 的方式進行安裝。
 
 1. 安裝編譯相關套件。
 
-        $ sudo yum install rpm-build make asciidoc git python-setuptools python2-devel python-jinja2
+        $ sudo yum install -y rpm-build make asciidoc git python-setuptools python2-devel python-jinja2
 
 2. 從 GitHub 取得 Ansible 的原始碼 (source code)。
 
@@ -60,11 +67,35 @@
 
         $ sudo rpm -ivh rpm-build/ansible-*.git*.noarch.rpm
 
+## Yum (CentOS)
+
+在 CentOS 裡，除了透過自行編譯、Pip 的方式安裝 Ansible，我們還可以透過新增第三方套件來源的方式進行安裝。
+
+1. 新增 `epel-release` 第三方套件來源。
+
+        $ sudo yum install -y epel-release
+
+2. 安裝 Ansible。
+
+        $ sudo yum install -y ansible
+
 ## Zypper (openSUSE)
-    
+
 1. 安裝 Ansible。    
     
-        $ sudo zypper install ansible
+        $ sudo zypper install -y ansible
+
+2. 若想使用較新的版本，可手動新增 `systemsmanagement` 的套件來源。
+
+        $ sudo zypper addrepo -Gf http://download.opensuse.org/repositories/systemsmanagement/openSUSE_Leap_42.1/ systemsmanagement
+
+3. 查詢相關套件和版本。
+
+        $ sudo zypper search ansible
+
+4. 指定特定版本進行安裝和升級。
+    
+        $ sudo zypper install -y ansible-2.2.0.0-56.1
 
 ---
 
