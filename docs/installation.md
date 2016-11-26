@@ -11,12 +11,12 @@
 1. 安裝 `add-apt-repository` 必要套件。
 
         $ sudo apt-get install python-software-properties software-properties-common
-    
+
 2. 使用 Ansible 官方的 PPA 套件來源。
 
         $ sudo add-apt-repository ppa:ansible/ansible -y; sudo apt-get update
-    
-3. 安裝 Ansible。    
+
+3. 安裝 Ansible。
     
         $ sudo apt-get install ansible
 
@@ -81,25 +81,46 @@
 
 ## Zypper (openSUSE)
 
-1. 安裝 Ansible。    
+1. 查詢相關套件和版本。
+
+        $ sudo zypper search -s ansible
+        ...
+
+        S | Name    | Type       | Version      | Arch   | Repository
+        --+---------+------------+--------------+--------+------------------
+          | ansible | package    | 1.9.3-1.1    | noarch | OSS
+
+2. 安裝 Ansible。(系統預設版本)
     
-        $ sudo zypper install -y ansible
+        $ sudo zypper -n install ansible
 
-2. 若想使用較新的版本，可手動新增 `systemsmanagement` 的套件來源。
+        # -n: 不互動直接安裝。
 
-        $ sudo zypper addrepo -Gf http://download.opensuse.org/repositories/systemsmanagement/openSUSE_Leap_42.1/ systemsmanagement
+3. 若想使用較新的版本，可手動新增 `systemsmanagement` 的套件來源。URL 的部份請配合 openSUSE 版本，例如 openSUsE_Leap_42.1， 
 
-3. 查詢相關套件和版本。
+        $ sudo zypper addrepo -Gf http://download.opensuse.org/repositories/systemsmanagement/openSUSE_Leap_42.1/systemsmanagement.repo
 
-        $ sudo zypper search ansible
+        # -G: 不檢查 GPG 驗證，請依情況使用。
+        # -f: 啟用自動更新，預設為停用。
 
-4. 指定特定版本進行安裝和升級。
+4. 安裝 (和升級) Ansible。
 
-        $ sudo zypper install -y ansible-2.2.0.0-56.1
+        $ sudo zypper -n install ansible
 
----
+1. 再次查詢相關套件和版本。
 
-## Reference
+        $ sudo zypper search -s ansible
+        ...
+
+        S | Name    | Type       | Version      | Arch   | Repository
+        --+---------+------------+--------------+--------+------------------
+        i | ansible | package    | 2.2.0.0-56.1 | noarch | systemsmanagement
+        v | ansible | package    | 1.9.3-1.1    | noarch | OSS
+          | ansible | srcpackage | 2.2.0.0-56.1 | noarch | systemsmanagement
+
+        # i 為已安裝套件。
+
+# Reference
 
 - [Installation — Ansible Documentation](http://docs.ansible.com/ansible/intro_installation.html)
 
