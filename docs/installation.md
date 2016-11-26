@@ -120,6 +120,20 @@
 
         # i 為已安裝套件。
 
+# 驗證
+
+1. 驗證 Ansible 版本。
+
+        $ ansible --version
+
+1. 來印出個 `Hello World` 吧。
+
+        $ ansible localhost -m command -a 'echo Hello World'
+         [WARNING]: provided hosts list is empty, only localhost is available
+
+        localhost | SUCCESS | rc=0 >>
+        Hello World
+
 # Reference
 
 - [Installation — Ansible Documentation](http://docs.ansible.com/ansible/intro_installation.html)
