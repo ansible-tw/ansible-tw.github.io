@@ -35,7 +35,7 @@
 1. 請先安裝 [pip](https://pypi.python.org/pypi/pip)，已安裝者請略過。
 
         $ sudo easy_install pip
-        
+
         # Debian, Ubuntu
         $ sudo apt-get install -y python-pip
 
@@ -94,7 +94,7 @@
         $ sudo zypper search ansible
 
 4. 指定特定版本進行安裝和升級。
-    
+
         $ sudo zypper install -y ansible-2.2.0.0-56.1
 
 ---
