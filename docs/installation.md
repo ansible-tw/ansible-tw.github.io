@@ -81,21 +81,28 @@
 
 ## Zypper (openSUSE)
 
-1. 安裝 Ansible。    
+1. 安裝 Ansible。(系統預設版本)  -n 為不互動直接安裝
     
-        $ sudo zypper install -y ansible
+        $ sudo zypper -n install  ansible
 
-2. 若想使用較新的版本，可手動新增 `systemsmanagement` 的套件來源。
+2. 查詢相關套件和版本。
 
-        $ sudo zypper addrepo -Gf http://download.opensuse.org/repositories/systemsmanagement/openSUSE_Leap_42.1/ systemsmanagement
+        $ sudo zypper search -s ansible
 
-3. 查詢相關套件和版本。
+1. 若想使用較新的版本，可手動新增 `systemsmanagement` 的套件來源。 URL 的部份請配合 openSUSE 版本, 例如 openSUsE_Leap_42.1 , -G 是不檢查GPG, 看情況使用
 
-        $ sudo zypper search ansible
+        $ sudo zypper addrepo -Gf http://download.opensuse.org/repositories/systemsmanagement/openSUSE_Leap_42.1/systemsmanagement.repo
 
-4. 指定特定版本進行安裝和升級。
+2. 查詢相關套件和版本。
+
+        $ sudo zypper search -s ansible
+
+3. 進行Ansible安裝。
     
-        $ sudo zypper install -y ansible-2.2.0.0-56.1
+        $ sudo zypper -n install  ansible
+4. 查詢相關套件和版本。( i 為已經安裝 )
+
+        $ sudo zypper search -s ansible
 
 ---
 
