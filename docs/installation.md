@@ -6,6 +6,14 @@
 
 ---
 
+## Apk (Alpine Linux)
+
+一般在精簡的 Alpine Linux 不會預載 `sudo`，請使用 **root** 身份進行安裝。  
+
+1. 安裝 Ansible。
+    
+        $ apk add ansible
+
 ## Apt (Ubuntu) 
 
 1. 安裝 `add-apt-repository` 必要套件。
@@ -30,6 +38,12 @@
 
         $ brew install ansible
 
+## Pacman (Arch Linux)
+
+1. 安裝 Ansible。
+
+        $ sudo pacman -S --noconfirm ansible
+
 ## Pip (Python)
 
 1. 請先安裝 [pip](https://pypi.python.org/pypi/pip)，已安裝者請略過。
@@ -43,7 +57,7 @@
 
         $ sudo pip install -U pip
 
-2. 安裝 Ansible。
+3. 安裝 Ansible。
         
         $ sudo pip install ansible
 
@@ -107,7 +121,7 @@
 
         $ sudo zypper -n install ansible
 
-1. 再次查詢相關套件和版本。
+5. 再次查詢相關套件和版本。
 
         $ sudo zypper search -s ansible
         ...
@@ -126,7 +140,7 @@
 
         $ ansible --version
 
-1. 來印出個 `Hello World` 吧。
+2. 來印出個 `Hello World` 吧！
 
         $ ansible localhost -m command -a 'echo Hello World'
          [WARNING]: provided hosts list is empty, only localhost is available
