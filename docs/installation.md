@@ -8,7 +8,7 @@
 
 ## Apk (Alpine Linux)
 
-一般在精簡的 Alpine Linux 不會預載 `sudo`，請使用 **root** 身份進行安裝。  
+一般在精簡的 Alpine Linux 不會預載 `sudo`，請使用 **root** 身份進行安裝；若想使用較新的版本，可改用 **Pip** 的方式進行安裝。  
 
 1. 安裝 Ansible。
     
@@ -61,6 +61,14 @@
         
         $ sudo pip install ansible
 
+## Portage (Gentoo)
+
+若想使用較新的版本，可改用 **Pip** 的方式進行安裝。
+
+1. 安裝 Ansible。
+
+        $ emerge ansible
+
 ## RPM Build (CentOS)
 
 若不想費心自己編 rpm，可改用 **Yum** 或 **Pip** 的方式進行安裝。
@@ -97,7 +105,7 @@
 
 1. 查詢相關套件和版本。
 
-        $ sudo zypper search -s ansible
+        $ zypper search -s ansible
         ...
 
         S | Name    | Type       | Version      | Arch   | Repository
@@ -123,7 +131,7 @@
 
 5. 再次查詢相關套件和版本。
 
-        $ sudo zypper search -s ansible
+        $ zypper search -s ansible
         ...
 
         S | Name    | Type       | Version      | Arch   | Repository
