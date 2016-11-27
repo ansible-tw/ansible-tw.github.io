@@ -38,6 +38,16 @@
 
         $ brew install ansible
 
+## OpenCSW (Solaris)
+
+1. 新增套件來源。
+
+        $ sudo pkgadd -d http://get.opencsw.org/now
+
+2. 安裝 Ansible。
+
+        $ sudo /opt/csw/bin/pkgutil -y -i ansible
+
 ## Pacman (Arch Linux)
 
 1. 安裝 Ansible。
@@ -61,13 +71,19 @@
         
         $ sudo pip install ansible
 
+## Pkg (FreeBSD)
+
+1. 安裝 Ansible。
+
+        $ sudo pkg install ansible
+
 ## Portage (Gentoo)
 
 若想使用較新的版本，可改用 **Pip** 的方式進行安裝。
 
 1. 安裝 Ansible。
 
-        $ emerge ansible
+        $ sudo emerge ansible
 
 ## RPM Build (CentOS)
 
