@@ -4,7 +4,7 @@
 
 - GitHub: https://github.com/ansible-tw
 - AMA (Ask me anything!): https://github.com/ansible-tw/AMA
-- Telegram Chat: https://telegram.me/joinchat/CPYvykCO9qnIpBSS-ROkeg
+- Telegram Chat: https://telegram.me/ansible_tw
 
 <div style="text-align: center;">
 Coypleft © from 2016 Ansible Taiwan User Group CC BY-NC-SA 3.0 TW.
