@@ -1,6 +1,8 @@
 # 相關簡報
 
-匯整並蒐集 Ansible 相關簡報的頁面，歡迎發送 Pull Requests 協助匯整。
+Ansible 相關簡報分享 (含且不限於社群活動)，歡迎發送 Pull Requests 協助匯整。若有不妥之處，還請至 [GitHub](https://github.com/ansible-tw/ansible-tw.github.io/issues/new) 開 issue 告知我們。
+
+----
 
 ## 2018
 
@@ -36,5 +38,5 @@
  
 
 <div style="text-align: center;">
-Copyleft © from 2016 Ansible Taiwan User Group CC BY-NC-SA 3.0 TW.
+Copyleft © from 2018 Ansible Taiwan User Group CC BY-NC-SA 3.0 TW.
 </div>
