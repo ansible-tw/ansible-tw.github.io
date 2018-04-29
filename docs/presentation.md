@@ -33,3 +33,8 @@
 * 12.26 [淺談 Ansible 自動化管理工具](https://docs.google.com/presentation/d/136VKHI_H8wKyrLIm1eaTMLz82uoPgjV4zTiGb1_-_Ig/edit?usp=sharing) by sakana / Max
 * 09.02 [Ansible 實戰：top down 觀點 (Practical Ansible: A Top-down Introduction)](https://www.slideshare.net/williamyeh/ansible-top-down) by William Yeh
 * 05.16 [安裝 Nginx 的 101 種方法／Ansible 簡介](https://prezi.com/gugpnfsn05a8/) by William Yeh
+ 
+
+<div style="text-align: center;">
+Copyleft © from 2016 Ansible Taiwan User Group CC BY-NC-SA 3.0 TW.
+</div>

@@ -177,6 +177,5 @@
 - [Installation — Ansible Documentation](http://docs.ansible.com/ansible/intro_installation.html)
 
 <div style="text-align: center;">
-Coypleft © from 2016 Ansible Taiwan User Group CC BY-NC-SA 3.0 TW.
+Copyleft © from 2016 Ansible Taiwan User Group CC BY-NC-SA 3.0 TW.
 </div>
-
