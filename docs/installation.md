@@ -1,4 +1,4 @@
-# 安裝 Ansible
+# 怎麼安裝 Ansible
 
 在使用 Ansible 管理機器 (managed node) 之前，我們需要在主控台 (Control Machine) 和 managed node 裡安裝 Python 和 OpenSSH。
 

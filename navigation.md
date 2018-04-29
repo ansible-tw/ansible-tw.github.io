@@ -1,13 +1,6 @@
 # Ansible 台灣使用者社群
 
-[關於我們](about.md)
-
-[教學文件]()
-
- * [安裝](docs/installation.md)
- * [簡報](docs/presentation.md)
-
-
+[怎麼安裝 Ansible](docs/installation.md)
+[相關簡報](docs/presentation.md)
 
 [gimmick:theme](cosmo)
-
