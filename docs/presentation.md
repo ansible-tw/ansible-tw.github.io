@@ -10,6 +10,7 @@ Ansible 相關簡報分享 (含且不限於社群活動)，歡迎發送 Pull Req
 * 04.28 [Deploy HDFS cluster via Ansible](https://docs.google.com/presentation/d/11YuRZpVyH1rr00qxe9JsjAipYcB7gGNYOlIMlV3kSYo/edit?usp=sharing) by 陳均豪
 * 04.28 [怎麼無痛升級 Ansible](https://speakerdeck.com/chusiang/how-to-stable-upgrade-the-ansible) by 凍仁翔
 * 04.28 [加速你的 Ansible](https://speakerdeck.com/eric8230/jia-su-ni-de-ansible) by Eric Wang
+* 03.28 [Ansible with Azure](https://docs.google.com/presentation/d/1zwuPqhLUy431B5GChtkhHv_hCkHnuZ3IpC8gMUFOIRg/edit?usp=sharing) by sakana / Max
 * 01.13 [DevOps 人一定要知道的持續交付技巧 - Ansible & GitLab CI 實戰演練 (5th)](https://speakerdeck.com/chusiang/continuous-delivery-workshop-with-ansible-x-gitlab-ci-5th) by 凍仁翔
 
 ## 2017
@@ -35,7 +36,6 @@ Ansible 相關簡報分享 (含且不限於社群活動)，歡迎發送 Pull Req
 * 12.26 [淺談 Ansible 自動化管理工具](https://docs.google.com/presentation/d/136VKHI_H8wKyrLIm1eaTMLz82uoPgjV4zTiGb1_-_Ig/edit?usp=sharing) by sakana / Max
 * 09.02 [Ansible 實戰：top down 觀點 (Practical Ansible: A Top-down Introduction)](https://www.slideshare.net/williamyeh/ansible-top-down) by William Yeh
 * 05.16 [安裝 Nginx 的 101 種方法／Ansible 簡介](https://prezi.com/gugpnfsn05a8/) by William Yeh
- 
 
 <div style="text-align: center;">
 Copyleft © from 2018 Ansible Taiwan User Group CC BY-NC-SA 3.0 TW.
