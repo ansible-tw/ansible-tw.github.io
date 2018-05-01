@@ -16,9 +16,10 @@ Ansible 相關簡報分享 (含且不限於社群活動)，歡迎發送 Pull Req
 ## 2017
 
 * 12.13 [Ansible 無所不在][Ansible_Technical_Deck] by Joe Yu
+* 09.09 [Kolla-Ansible Workshop](https://docs.google.com/presentation/d/1LRGXzHIV8jTosloWS5l6CKYYxxqStq9LKe78wqbb6nk/edit?usp=sharing) by Gene Kuo
 * 08.05 [Ansible & GitLab CI/CD workshop 101](http://blog.chengweichen.com/2017/08/coscup-2017-ansible-gitlab-cicd.html) by Cheng Wei Chen
 * 08.05 [DevOps 人一定要知道的 Ansible & GitLab CI 持續交付技巧](https://speakerdeck.com/chusiang/continuous-delivery-with-ansible-x-gitlab-ci) by 凍仁翔
-* 07.18 [使用 Ansible 快速部署跟應用你的 OpenStack 環境](https://speakerdeck.com/igene/deploy-and-use-openstack-with-ansible) by Gene
+* 07.18 [使用 Ansible 快速部署跟應用你的 OpenStack 環境](https://speakerdeck.com/igene/deploy-and-use-openstack-with-ansible) by Gene Kuo
 * 03.21 [現代 IT 人一定要知道的 Ansible 自動化組態技巧 (3/e)](https://speakerdeck.com/chusiang/automate-with-ansible-basic-3e) by 凍仁翔
 
 [Ansible_Technical_Deck]: https://img.en25.com/Web/RedHat/%7B9388ea59-82b4-4da2-bb62-cfc42d525069%7D_05.Ansible_Technical_Deck_-_FY18_(Joe_Yu).pdf
