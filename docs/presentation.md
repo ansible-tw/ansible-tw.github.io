@@ -1,11 +1,12 @@
 # 相關簡報
 
-Ansible 相關簡報分享 (含且不限於社群活動)，歡迎發送 Pull Requests 協助匯整。若有不妥之處，還請至 [GitHub](https://github.com/ansible-tw/ansible-tw.github.io/issues/new) 開 issue 告知我們。
+Ansible 相關簡報分享 (包含且不限於社群活動)，歡迎發送 Pull Requests 協助匯整。若有不妥之處，還請至 [GitHub](https://github.com/ansible-tw/ansible-tw.github.io/issues/new) 開 issue 告知我們。
 
 ----
 
 ## 2018
 
+* 05.14 [Ansible with DigitalOcean](https://docs.google.com/presentation/d/1qw_S2ranHvS22Jk6HX64D_gFBu-XSRyFEhLJ-AWddGA/mobilepresent?slide=id.p) by sakana / Max
 * 04.28 [跟著 geerlingguy 大神一起測試 Ansible Roles](https://www.slideshare.net/warfan/geerlingguy-ansible-roles) by Cheng Wei Chen
 * 04.28 [Deploy HDFS cluster via Ansible](https://docs.google.com/presentation/d/11YuRZpVyH1rr00qxe9JsjAipYcB7gGNYOlIMlV3kSYo/edit?usp=sharing) by 陳均豪
 * 04.28 [怎麼無痛升級 Ansible](https://speakerdeck.com/chusiang/how-to-stable-upgrade-the-ansible) by 凍仁翔
