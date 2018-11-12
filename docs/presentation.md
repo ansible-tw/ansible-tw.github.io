@@ -6,7 +6,7 @@ Ansible 相關簡報分享 (包含且不限於社群活動)，歡迎發送 Pull 
 
 ## 2018
 
-* 11.11 [淺談 NetDevOps 初步實踐設計 Ansible](https://www.slideshare.net/secret/ePD4c0AxQagQTu) by Phil Huang 黃秉鈞
+* 11.11 [淺談 NetDevOps 初步實踐設計 Ansible](https://speakerdeck.com/pichuang/netdevops-101) by Phil Huang 黃秉鈞
 * 11.11 [Ansible 可以幫忙做些什麼？](https://www.slideshare.net/secret/ePD4c0AxQagQTu) by Eve Chen
 * 11.11 [開場 & END | Ansible Taipei Meetup #1](https://speakerdeck.com/chusiang/begin-and-end-of-ansible-taipei-meetup-1st) by 凍仁翔
 * 05.14 [Ansible with DigitalOcean](https://docs.google.com/presentation/d/1qw_S2ranHvS22Jk6HX64D_gFBu-XSRyFEhLJ-AWddGA/mobilepresent?slide=id.p) by sakana / Max
