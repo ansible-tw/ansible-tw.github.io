@@ -2,19 +2,25 @@
 
 在使用 Ansible 管理機器 (managed node) 之前，我們需要在主控台 (Control Machine) 和 managed node 裡安裝 Python 和 OpenSSH。
 
+> 在 Ansible 2.3.1 以後，通常需要額外安裝 `sshpass`，才可正常使用。
+
 以下依套件管理工具名稱進行排列。
 
 ---
 
 ## Apk (Alpine Linux)
 
-一般在精簡的 Alpine Linux 不會預載 `sudo`，請使用 **root** 身份進行安裝；若想使用較新的版本，可改用 **Pip** 的方式進行安裝。  
+一般在精簡的 Alpine Linux 不會預載 `sudo`，請使用 **root** 身份進行安裝；若想使用較新的版本，可改用 **Pip** 的方式進行安裝。
 
-1. 安裝 Ansible。
-    
+1. 更新套件來源。
+
+        $ apk update
+
+2. 安裝 Ansible。
+
         $ apk add ansible
 
-## Apt (Ubuntu) 
+## Apt (Ubuntu)
 
 1. 安裝 `add-apt-repository` 必要套件。
 
@@ -25,7 +31,7 @@
         $ sudo add-apt-repository ppa:ansible/ansible -y; sudo apt-get update
 
 3. 安裝 Ansible。
-    
+
         $ sudo apt-get install ansible
 
 ## Homebrew (macOS)
@@ -63,12 +69,15 @@
         # Debian, Ubuntu
         $ sudo apt-get install -y python-pip
 
+        # CentOS
+        $ sudo yum install -y gcc python2-pip python-devel
+
 2. 升級 pip。
 
         $ sudo pip install -U pip
 
 3. 安裝 Ansible。
-        
+
         $ sudo pip install ansible
 
 ## Pkg (FreeBSD)
@@ -129,12 +138,12 @@
           | ansible | package    | 1.9.3-1.1    | noarch | OSS
 
 2. 安裝 Ansible。(系統預設版本)
-    
+
         $ sudo zypper -n install ansible
 
         # -n: 不互動直接安裝。
 
-3. 若想使用較新的版本，可手動新增 `systemsmanagement` 的套件來源。URL 的部份請配合 openSUSE 版本，例如 openSUsE_Leap_42.1， 
+3. 若想使用較新的版本，可手動新增 `systemsmanagement` 的套件來源。URL 的部份請配合 openSUSE 版本，例如 openSUsE_Leap_42.1。
 
         $ sudo zypper addrepo -Gf http://download.opensuse.org/repositories/systemsmanagement/openSUSE_Leap_42.1/systemsmanagement.repo
 
