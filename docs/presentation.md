@@ -4,6 +4,10 @@ Ansible 相關簡報分享 (包含且不限於社群活動)，歡迎發送 Pull 
 
 ----
 
+## 2019
+
+* 01.30 [Ansible 技術概觀介紹](https://speakerdeck.com/pichuang/ansible-ji-shu-gai-guan-jie-shao-20190130) by Phil Huang 黃秉鈞
+
 ## 2018
 
 * 11.11 [淺談 NetDevOps 初步實踐設計 Ansible](https://speakerdeck.com/pichuang/netdevops-101) by Phil Huang 黃秉鈞
