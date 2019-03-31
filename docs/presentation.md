@@ -6,6 +6,7 @@ Ansible 相關簡報分享 (包含且不限於社群活動)，歡迎發送 Pull 
 
 ## 2019
 
+* 03.30 [Packer build Virtualbox image 起手式](https://docs.google.com/presentation/d/1nLBEU7w_1M3gHVGzGakUin2wHNUaRtVLOBd0mTzOhPg/edit?usp=sharing) by Danie Lin
 * 01.30 [Ansible 技術概觀介紹](https://speakerdeck.com/pichuang/ansible-ji-shu-gai-guan-jie-shao-20190130) by Phil Huang 黃秉鈞
 
 ## 2018
