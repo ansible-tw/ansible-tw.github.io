@@ -6,6 +6,11 @@ Ansible 相關簡報分享 (包含且不限於社群活動)，歡迎發送 Pull 
 
 ## 2019
 
+* 06.27 [利用 Ansible 進行 Linux 資安強化 (Security Hardening)](http://www.gwms.com.tw/Red%20Hat_0627/05.pdf) by Leo Wang 王敬彬
+* 06.27 [Network Automation - getting from automatable to automated](http://www.gwms.com.tw/Red%20Hat_0627/04.pdf) by Vince Yu 游源濱
+* 06.27 [迎向 IT 安全高可用運維自動化新時代](http://www.gwms.com.tw/Red%20Hat_0627/03.pdf) by 林志斌
+* 06.27 [Balancing security and innovation](http://www.gwms.com.tw/Red%20Hat_0627/02.pdf) by Quincy Cheng 鄭子君
+* 06.27 [Ansible for network automation](http://www.gwms.com.tw/Red%20Hat_0627/01.pdf) by Phil Huang 黃秉鈞
 * 05.18 [Ansible and openSUSE workshop 101](https://bit.ly/sakana20190518) by sakana / max
 * 05.15 [Ansible with Azure 介紹](https://bit.ly/sakana20190515) by sakana / max
 * 03.30 [Packer build Virtualbox image 起手式](https://docs.google.com/presentation/d/1nLBEU7w_1M3gHVGzGakUin2wHNUaRtVLOBd0mTzOhPg/edit?usp=sharing) by Danie Lin
