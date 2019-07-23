@@ -6,6 +6,7 @@ Ansible 相關簡報分享 (包含且不限於社群活動)，歡迎發送 Pull 
 
 ## 2019
 
+* 07.20 [Better Practice: Day 2 Operaition with Ansible](https://speakerdeck.com/pichuang/20190720-better-practice-day-2-operaition-with-ansible) by Phil Huang 黃秉鈞
 * 06.27 [利用 Ansible 進行 Linux 資安強化 (Security Hardening)](http://www.gwms.com.tw/Red%20Hat_0627/05.pdf) by Leo Wang 王敬彬
 * 06.27 [Network Automation - getting from automatable to automated](http://www.gwms.com.tw/Red%20Hat_0627/04.pdf) by Vince Yu 游源濱
 * 06.27 [迎向 IT 安全高可用運維自動化新時代](http://www.gwms.com.tw/Red%20Hat_0627/03.pdf) by 林志斌
