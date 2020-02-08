@@ -1,7 +1,7 @@
 {
     "useSideMenu": true,
     "lineBreaks": "gfm",
-    "additionalFooterText": "",
+    "additionalFooterText": "ansible.tw&nbsp;",
     "anchorCharacter": "&#x2693;",
     "title": "Ansible 台灣使用者社群"
 }
