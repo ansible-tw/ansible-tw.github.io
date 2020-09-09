@@ -4,6 +4,11 @@ Ansible 相關簡報分享 (包含且不限於社群活動)，歡迎發送 Pull 
 
 ----
 
+## 2020
+
+* 09.08 [Ansible AWX - 圖形化管理 Ansible 環境的利器](https://drive.google.com/file/d/1OhHd_rGZeMtlOH1a64-3XDgQjZT5M828/view) by 王偉任
+* 09.08 [Ansible AWX Workshop](https://drive.google.com/file/d/1HWVBskHKW2SZYHXwQbop0LdwuN2V7RhD/view) by 王偉任
+
 ## 2019
 
 * 07.20 [Better Practice: Day 2 Operaition with Ansible](https://speakerdeck.com/pichuang/20190720-better-practice-day-2-operaition-with-ansible) by Phil Huang 黃秉鈞
