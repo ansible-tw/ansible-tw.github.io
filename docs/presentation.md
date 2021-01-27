@@ -4,6 +4,10 @@ Ansible 相關簡報分享 (包含且不限於社群活動)，歡迎發送 Pull 
 
 ----
 
+## 2021
+
+* 01.26 [Ansible Operator - 超新手 Operator 入門 101](https://slides.com/rockwyc992/ansible-operator-20210126) by 印章
+
 ## 2020
 
 * 09.08 [Ansible AWX - 圖形化管理 Ansible 環境的利器](https://drive.google.com/file/d/1OhHd_rGZeMtlOH1a64-3XDgQjZT5M828/view) by 王偉任
