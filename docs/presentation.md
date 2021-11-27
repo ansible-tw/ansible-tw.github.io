@@ -6,6 +6,7 @@ Ansible 相關簡報分享 (包含且不限於社群活動)，歡迎發送 Pull 
 
 ## 2021
 
+* 11.24 [Ansible AWX - 輕鬆打造你的 IaC 基礎架構即程式碼平台](https://drive.google.com/file/d/1h9X0Vxtm6JfxqxbZ0-qz4uzO8bvf9OMt/view) by 王偉任
 * 01.26 [Ansible Operator - 超新手 Operator 入門 101](https://slides.com/rockwyc992/ansible-operator-20210126) by 印章
 
 ## 2020
